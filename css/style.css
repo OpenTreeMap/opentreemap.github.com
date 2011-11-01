@@ -59,15 +59,24 @@ body {
 	background: url(../images/overlay_play_btn.png) no-repeat;
 }
 .content_area span.quote {
+	background: #6F9237;
 	font-family: "Trebuchet MS", "Helvetica Neue", sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	padding: 10px 15px;
 	margin: 0 0 15px;
-	color: #54842E;
+	color: #FFF;
 	float: left;
-	-moz-box-shadow: 0 0 5px #ccc;
-	-webkit-box-shadow: 0 0 5px #ccc;
-	box-shadow: 0 0 5px #ccc;
+	-moz-box-shadow: 0 0 5px #AAA;
+	-webkit-box-shadow: 0 0 5px #AAA;
+	box-shadow: 0 0 5px #AAA;
+}
+.content_area span.quote b,
+.content_area span.quote i {
+	font-size: 12px;
+	float: right;
+}
+.content_area span.quote b {
+	font-weight: bold;
 }
 .content_area span.quote-overlay {
 	font-family: "Trebuchet MS", "Helvetica Neue", sans-serif;
@@ -104,7 +113,7 @@ body {
 
 .footer {
 	clear: both;
-	background: #BCBEC0;
+	background: #CCC;
 	line-height: 16px;
 	height: 240px;
 	margin: 10px 0 0;
