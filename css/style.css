@@ -149,6 +149,7 @@ body {
 .footer .column a {
 	color: #54842E;
 	float: left;
+	clear:both;
 }
 .footer .column img {
 	margin: 0 5px 5px 0;
