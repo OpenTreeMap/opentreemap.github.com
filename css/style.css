@@ -83,12 +83,17 @@ body {
 	font-weight: bold;
 	font-size: 15px;
 	padding: 10px 10px 10px 15px;
-	margin: -73px 0 15px;
+	margin: -93px 0 15px;
 	color: #FFF;
 	text-shadow: 0 0 0.2em #000;
 	position: relative;
 	float: left;
 }
+.content_area span.quote-overlay b {
+	float: right;
+	font-size: 12px;
+}
+
 .content_area span.caption {
 	font-size: 8px;
 	font-style: italic;
