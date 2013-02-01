@@ -1,0 +1,382 @@
+/* ===============================================
+   Shared
+=============================================== */
+
+body {
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 14px;
+	color: #58595B;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Istok Web", Trebuchet MS, sans-serif;
+	letter-spacing: -1px;
+	word-spacing: -0.06em;
+}
+
+h1, h2 {
+	letter-spacing: -1px;
+	word-spacing: -0.06em;
+}
+
+h2 {
+	font-size: 21px;
+	color: #939598;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 23px;
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	color: #999;
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both:
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.main-content ul {
+	padding-left: 20px;
+}
+
+ul#tabs {
+	padding-left: 0;
+}
+
+.main-content a {
+	color: #E47D0E;
+	text-decoration: none;
+}
+
+#orange ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* ===============================================
+   Header
+=============================================== */
+
+.fixed {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	background-color: #88A83E;
+	z-index: -999;
+}
+
+#top {
+	height: 5px;
+	top: 0;
+	left: 0;
+}
+
+#hero-unit {
+	height: 330px;
+	top: 125px;
+	background: url(https://s3.amazonaws.com/s3.azavea.com/com.azavea.opentreemap/otm_leaves.png) top left no-repeat #88A83E;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header img {
+	padding: 25px 0 25px 0;
+}
+
+#contact-box {
+	position: relative;
+	float: right;
+	width: 314px;
+	height: 355px;
+	padding: 17px;
+	margin-top: -50px;
+	background: #F3F3F3;
+	border: 1px solid #A7A9AC;
+	position: relative;
+	overflow: visible;
+	box-shadow: 0 0 20px rgba(0,0,0,.6);
+}
+
+.contactForm button {
+	background-color: #98B73C;
+	padding: 7px 35px 7px 35px;
+	border: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#subscribeBox button {
+	background: none;
+	background-color: #98B73C;
+	padding: 5px 20px 5px 20px;
+	border: 0;
+	box-shadow: 0none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-top: 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+/* ===============================================
+   Body
+=============================================== */
+
+.leftCol {
+	float: left;
+	width: 58%;
+}
+
+.rightCol {
+	float: right;
+	width: 37%;
+}
+
+.main-content {
+	margin-top: 400px;
+}
+
+.main-content p {
+	line-height: 21px;
+	color: #999;
+}
+
+.main-content h3 {
+	margin: 15px 0 8px;
+	font-size: 18px;
+	color: #6C903D;
+}
+
+.main-content li {
+	line-height: 24px;
+	
+}
+
+img.thumb {
+	margin: 0 10px 10px 0;
+	border: 1px solid #eee;
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+	border: none;
+}
+
+.nav-tabs > li > a {
+	border: none;
+	border-radius: 3px;
+	color: #88A83E;
+	text-decoration: none;
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+	background-color: #88A83E;
+	color :#fff;
+}
+
+.nav-tabs > li > a:hover {
+	background-color: #eee;
+	color: #6C903D;
+}
+
+.nav-tabs {
+	border: none;
+}
+
+.newsletter {
+	padding-top: 20px;
+}
+
+.input-append button {
+	margin-top: 0;
+}
+
+/* ===============================================
+   Sidebar
+=============================================== */
+
+#sidebar {
+	margin-top: 50px;
+}
+
+#sidebar-nav {
+	margin-left: 10px;
+}
+
+
+#sidebar-nav li {
+	display: block;
+	width: 92%;
+	height: auto;
+	padding: 12px 15px 10px;
+	background-color: #88A83E;
+	color: #fff;
+	border-radius: 6px;
+	margin-bottom: 15px;
+}
+
+#sidebar-nav li a {
+	font-family: "Istok Web", Trebuchet MS, sans-serif;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#sidebar-nav li span {
+	float: right;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: -5px;
+}
+
+#subscribeBox {
+	border: 10px solid #DDD;
+	padding: 14px;
+	box-shadow: none;
+	background: #F1F2F2;
+	width: 85%;
+	margin: 65px 0 0 10px;
+}
+
+span.subhead {
+	font-size: 14px;
+	color: #999;
+	line-height: 18px;
+	font-family: "Istok Web", Trebuchet MS, sans-serif;
+	font-weight: bold;
+	letter-spacing: -1px;
+	word-spacing: -0.06em;
+}
+
+#contact {
+	padding-top: 25px;
+}
+
+#sidebar-nav a {
+	text-decoration: none;
+	font-family: "Istok Web", Trebuchet MS, sans-serif;
+	font-size: 18px;
+}
+
+#sidebar-nav a li:hover {
+	background-color: rgba(136, 168, 62, 0.85);
+}
+
+.cform1 {
+	width: 100%;
+}
+
+.cform1 input {
+	width: 140px;
+	margin-right: 5px;
+	padding: 3px;
+}
+
+.cform1 span {
+	display: inline-block;
+}
+
+.contactForm {
+	margin-top: 25px;
+}
+
+.contactForm input,
+.contactForm textarea {
+	border-radius: 1px solid #eee;
+	box-shadow: none;
+	border-radius: 0px;
+}
+
+.contactForm label {
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	color: #666;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.form-other input {
+	width: 296px;
+}
+
+.form-other textarea {
+	width: 296px;
+	height: 50px;
+}
+
+a.case-study {
+	width: 172px;
+	height: 172px;
+	overflow: hidden;
+	display: block;
+	height: 170px;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #DDD;
+}
+
+
+a.case-study span {
+	position: absolute;
+	bottom: 0;
+	background: #6C903D;
+	padding: 6px 8px;
+	background: rgba(108, 144, 61, .75);
+	color: white;
+	font-size: 12px;
+	z-index: 999;
+	font-weight: 600;
+	line-height: 18px;
+	width: 156px;
+	transition: background .5s;
+	-moz-transition: background .5s;
+	-webkit-transition: background .5s;
+	-o-transition: background .5s;
+}
+
+
+
+/* ===============================================
+   Footer
+=============================================== */
+
+#footer {
+	width: 960px;
+	border-top: 4px solid #d6d6d6;
+	bottom: 0;
+}
+
+#featured, div.orbit-wrapper { 
+     position: absolute;
+     top: 72px; 
+	 z-index: -998;
+}

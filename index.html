@@ -1,218 +1,234 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-<title>OpenTreeMap - Open source geography-enabled urban tree inventory</title>
-
-<link type="text/css" rel="stylesheet" href="css/reset.css" />
-<link type="text/css" rel="stylesheet" href="css/style.css" />
-<link type="text/css" rel="stylesheet" href="css/video-js.css" />
-
-<script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
-
-<script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "ur-fe62355-1e56-affd-8604-e225c9a320fe"}); </script>
-
-</head>
-<body>
-	<div class="wrapper">
-		<div class="header">
-			<a href="index.html"><img src="images/otm_logo.jpg" alt="OpenTreeMap" /></a>
-			<div style="float: right">
-				<span class='st_twitter'></span>
-				<span class='st_facebook'></span>
-				<span class='st_email'></span>
-				<span class='st_sharethis'></span>
-			</div>
-		</div>
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>OpenTreeMap</title>
+        <meta name="description" content="OpenTreeMap provides an easy-to-use public inventorying platform to collaboratively contribute to an interactive map of a community's tree population.">
+        <meta name="viewport" content="width=device-width">
 		
-		<div class="content_area">
-			<h2>OpenTreeMap is open source software for collaborative, <br/>geography-enabled urban tree inventory.</h2>
-<!-- BEGIN LEFT COLUMN -->			
-			<div class="columns">
-				<div class="column margin-right">
-					<h3>Why use OpenTreeMap?</h3>
-					OpenTreeMap provides an easy-to-use public inventorying platform that enables individuals, organizations, and governments to search and contribute to a collaborative, interactive, and dynamic map of a community&#39;s tree population. Urban street trees have many proven environmental, economic, and aesthetic benefits and an accurate and current inventory is essential for effectively and efficiently caring for this vital community resource. OpenTreeMap can be used in a single municipality or cover a broader geographic region, anywhere in the world.
-					<br/><br/>
-					<span class="quote">&#34;With the Urban Forest Map, we're able to reach out to new audiences and help San Franciscans learn about the great benefits our trees provide.&#34;
-					<br/><b>Dan Flanagan</b>
-					<br/><i>Executive Director, Friends of the Urban Forest</i>
-					</span>
-					<br/><br/>
-					<h3>System Requirements</h3>
-					The software is built using several open source technologies including:
-					<ul class="requirements">
-						<li>Python</li>
-						<li>GeoServer</li>
-						<li>Django</li>
-						<li>PostgreSQL</li>
-						<li>PostGIS</li>
-						<li>Base Maps (OpenStreetMap, ArcGIS.com, etc)</li>
-					</ul>
-					<br/>
-					The software can be hosted in several environments:
-					<ul>
-						<li>Amazon Web Services</li>
-						<li>Azavea Hosting</li>
-						<li>On Premise Installation</li>
-						<li>Hosting services such as Rackspace or Linode</li>
-					</ul>
-				</div>
-				<div class="column">
-					<img src="images/otm_screen_01.png" class="screen" alt="Photo by Pennsylvania Horticultural Society" />
-					<span class="quote-overlay">&#34;This is a <strong>wonderful tool</strong> and [we] hope to use it for a community project.&#34;
-					<br/><b>- OpenTreeMap User</b>
-					</span>
-					<span class="caption">Photo by Pennsylvania Horticultural Society</span>
-					<!-- <a href="" class="webinar_thumb" rel="#webinar"><img src="images/db_screen_01.png" alt="DistrictBuilder Webinar" /><span>PLAY</span></a> -->
+		<link href='http://fonts.googleapis.com/css?family=Istok+Web:700' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="css/forms-tabs.css">
+		<link rel="stylesheet" href="css/opentreemap.css">
+		<link rel="stylesheet" href="css/orbit.css">
+		
+		<!--[if lt IE 9]>
+		  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/orbit.js"></script>
+		
+		<script type="text/javascript">$(function(){var formId='#form-5949';$(formId).validator({messageClass:'validation-error',errorClass:'field-error'}).bind("onSuccess",function(e,els){var form=this;var numSucceeded=els.length,numExpected=$(this).data('validator').getInputs().length;if(numSucceeded===numExpected){var formProduct='opentreemap';$('#00N30000009Hz7V').val('MwR6IuFGE6oTIdTFHYgGyYfrkiEUi6w9DN2');e.preventDefault();gaEvent.track({action:'Lead_Submitted',category:'Form_Submission',label:formProduct,value:50});setTimeout(function(){form.submit();},500);}});});</script><script type="text/javascript">document.documentElement.className+=" js"</script>
+		
+	</head>
+	<body>
+		<div id="top" class="fixed"> </div>
+		<div id="hero-unit" class="fixed"> </div>
+		
+		<div class="container"> <!-- start: container -->
+			<div id="header">
+				<img src="https://s3.amazonaws.com/s3.azavea.com/com.azavea.opentreemap/otm_206x66.png" alt="OpenTreeMap" />
+			</div>
+			<div id="featured"> 
+				<img src="img/slider/otm-slide-01.png" alt="" />
+				<img src="img/slider/otm-slide-02.png" alt="" />
+				<img src="img/slider/otm-slide-03.png" alt="" />
+			</div>
+			<div id="contact-box">
+				<h3>Contact us about your OpenTreeMap project and our 10% non-profit and government discount.</h3>
+				
+				<form id="form-5949" class="contactForm" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" novalidate="novalidate">
+					<input type="hidden" name="oid" value="00D30000000efK8">
+					<input type="hidden" name="retURL" value="http://www.azavea.com/ok/thank-you/">
+					<input id="Campaign_ID" name="Campaign_ID" type="hidden" value="">
+					<input type="hidden" id="member_status" name="member_status" value="">
+					<input type="hidden" id="00N30000004RyN1" name="00N30000004RyN1" value="1">
+					<input type="hidden" id="00N30000007wqex" name="00N30000007wqex" value="1">
+					<div class="cform1">
+						<span>
+							<label for="first_name">First Name*</label><input id="first_name" maxlength="40" name="first_name" size="20" value="" required="required" pattern=".*[^ ].*"/>
+						</span>
+						<span>
+							<label for="last_name">Last Name*</label><input id="last_name" maxlength="80" name="last_name" size="20" value="" required="required" pattern=".*[^ ].*"/>
+						</span>
+					</div>
+					<div class="form-other">
+					<label for="email" class="clearLeft">Email*</label><input id="email" maxlength="80" name="email" size="20" value="" type="email" required="required"/>
+					<label for="description">Message</label><textarea id="description" name="description" value=""></textarea>
+					<input id="lead_source" name="lead_source" type="hidden" value="Web"/>
+					<input id="00N30000009Hz7V" name="00N30000009Hz7V" type="hidden" value="1"/>
+					</div>
+					<div class="center">
+					<button type="submit" class="about-usBg siteButton"><span>Contact Us</span></button>
+</div>
+<input type="hidden" name="sfga" value=""/>
+</form>
+				
+				
+				<!--
+				<form id="contact">
+					<fieldset>
+						<label>First name*</label>
+						<input type="text" class="input-xlarge" placeholder="John">
+						<label>Last name*</label>
+						<input type="text" class="input-xlarge" placeholder="Smith">
+						<label>Email*</label>
+						<input type="email" class="input-xlarge" placeholder="johnsmith@email.com">
+						<label>Message</label>
+						<textarea rows="3" class="input-xlarge"></textarea>
+						<button type="submit" class="btn btn-inverse btn-large">Contact Us</button>
+					</fieldset>
+				</form>
+				-->
+			</div>
+			
+			<div class="leftCol main-content"> <!-- start: main-content -->
+	
+				<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+					<li class="active"><a href="#red" data-toggle="tab">Overview</a></li>
+					<li><a href="#orange" data-toggle="tab">Resources</a></li>
+					<li><a href="#yellow" data-toggle="tab">Support & Services</a></li>
+					<li><a href="#green" data-toggle="tab">Future Developments</a></li>
+				</ul>
+				<div id="my-tab-content" class="tab-content">
+				<div class="tab-pane active" id="red">
+					<h2>Make collaborative tree inventories easy with OpenTreeMap</h2>
+					<p>Urban street trees have myriad proven benefits for communities including providing shade, improving air quality, assisting with stormwater runoff, raising property values, decreasing utility bills, and enhancing the look and feel of communities. But creating a complete inventory is a time consuming and resource intensive process. OpenTreeMap provides an easy-to-use public inventorying platform that enables individuals, organizations, and governments to collaboratively contribute to an interactive and dynamic map of a community's tree population.</p>
+					<p>OpenTreeMap can be used in a single municipality or cover a broader geographic region with many communities, anywhere in the world.</p>
 					<h3>Main Features</h3>
 					<ul>
 						<li>Search for trees by species, location, or advanced filters such as diameter, date planted, or tree characteristics (flowering, native, etc.)</li>
-						<li>Add trees individually or load tree datasets into the system</li>
+						<li>Add trees individually or load tree datasets to the system</li>
 						<li>Edit and add information about existing tree records including species name, location, height, plot size and type, conditions, actions needed, funding sources, data owner</li>
 						<li>Upload tree photos</li>
 						<li>Export tree lists as KML or CSV files</li>
-						<li>Automatically calculate ecosystem benefits (greenhouse gas, water, energy,  air quality) based on a tree&#39;s species and diameter</li>
+						<li>Automatically calculate ecosystem benefits (greenhouse gas, water, energy, air quality) based on a tree's species and diameter</li>
 						<li>Monitor user accounts, comments, and system edits</li>
 						<li>Get optional integrated tree key to assist in identifying tree species</li>
 						<li>Mobile version available</li>
-						<li>Read Wes Kocher's <b><a href="http://www.azavea.com/index.php/download_file/view/1160/">review of OpenTreeMap</a></b>. Wes is <a href="http://www.isa-arbor.com/home.aspx">ISA's</a> Technical Resource Manager.</li>
+					</ul>
+					<h3>Discover Who's Using OpenTreeMap</h3>
+					<a class="case-study" href="http://phillytreemap.org/" target="_blank">
+						<span>PhillyTreeMap</span>
+						<img src="https://s3.amazonaws.com/s3.azavea.com/com.azavea.opentreemap/ptm.jpg" alt="PhillyTreeMap" class="thumb"/>
+					</a>
+					<a class="case-study" href="http://urbanforestmap.org/" target="_blank">
+						<span>Urban Forest Map</span>
+						<img src="https://s3.amazonaws.com/s3.azavea.com/com.azavea.opentreemap/urbanforestmap.jpg" alt="Urban Forest Map" class="thumb" />
+					</a>
+					<a class="case-study" href="http://www.greenprintmaps.org/map" target="_blank">
+						<span>Greenprint Maps</span>
+						<img src="https://s3.amazonaws.com/s3.azavea.com/com.azavea.opentreemap/greenprintmaps.jpg" alt="Greenprint Maps" class="thumb" />
+					</a>
+					<a class="case-study" href="http://sandiegotreemap.org/" target="_blank">
+						<span>San Diego Tree Map</span>
+						<img src="https://s3.amazonaws.com/s3.azavea.com/com.azavea.opentreemap/sdtreemap.jpg" alt="San Diego Tree Map" class="thumb" />
+					</a>
+					<a class="case-study" href="http://treemap.urbanforestproject.com/" target="_blank">
+						<span>Grand Rapids Urban Forest Project</span>
+						<img src="https://s3.amazonaws.com/s3.azavea.com/com.azavea.opentreemap/grandrapids.jpg" alt="Grand Rapids Urban Forest Project" class="thumb" />
+					</a>
+				</div>
+				<div class="tab-pane" id="orange">
+					<h2>Resources</h2>
+					<h3>Tutorials</h3>
+					<ul>
+						<li><a href="http://www.youtube.com/watch?v=X3-hazD9VFo" target="_blank">Tutorial 1: Searching</a> &raquo;</li> 
+						<li><a href="http://www.youtube.com/watch?v=b9L-bAqGGFo" target="_blank">Tutorial 2: Adding a Tree</a> &raquo;</li>
+					</ul>
+					<h3>Webinars</h3>
+					<ul>
+						<li><a href="http://www.azavea.com/blogs/atlas/2012/03/recorded-webinar-exploring-collaborative-tree-inventory-with-opentreemap/" target="_blank">Exploring Collaborative Tree Inventory with OpenTreeMap</a> &raquo;</li>
+						<li><a href="http://www.azavea.com/blogs/atlas/2012/06/recorded-webinar-exploring-community-engagement-with-opentreemap/" target="_blank">Exploring Community Engagement w/ OpenTreeMap</a> &raquo;</li>
+						<li><a href="http://www.azavea.com/blogs/atlas/2012/09/recorded-webinar-exploring-mobile-technology-with-opentreemap-mobile/" target="_blank">Exploring Mobile Technology w/ OpenTreeMap Mobile</a> &raquo;</li>
+						<li><a href="http://www.azavea.com/blogs/atlas/2012/12/recorded-webinar-exploring-data-preparation-and-visualization-tools-for-urban-forestry/" target="_blank">Exploring Data Preparation and Visualization Tools for Urban Forestry</a> &raquo;</li>
+						<li><a href="http://www.azavea.com/blogs/atlas/2012/06/recorded-webinar-exploring-urban-forest-modeling-and-prioritization-tools/" target="_blank">Exploring Urban Forest Modeling and Prioritization Tools</a> &raquo;</li>
+					</ul>
+					<h3>Articles</h3>
+					<ul>
+						<li>Read Wes Kocher's <a href="http://www.azavea.com/index.php/download_file/view/1160/" target="_blank">review of OpenTreeMap</a>. Wes is <a href="http://www.isa-arbor.com/home.aspx" target="_blank">ISA</a>'s Technical Resource Manager.</li>
+					</ul>
+					<h3>Acknowledgements</h3>
+					<ul>
+						<li><a href="http://www.urban-ecos.com/aboutus.html" target="_blank">Urban Ecos</a></li>
+						<li><a href="http://www.csrees.usda.gov/" target="_blank">USDA National Institute of Food and Agriculture</a></li>
+						<li><a href="http://www.fire.ca.gov/" target="_blank">Calfire</a></li>
+						<li><a href="http://www.azavea.com/" target="_blank">Azavea</a></li>
+						<li><a href="http://treekit.org/" target="_blank">TreeKIT</a></li>
+						<li>Christian Wolfsgruber</li>
 					</ul>
 				</div>
-				<div class="case_studies">
-					<h3>Who&#39;s Using OpenTreeMap</h3>
-					<a class="case_study margin-right-15" href="http://phillytreemap.org/" target="_blank">
-						<span><p>PhillyTreeMap</p></span>
-						<img src="images/pa_thumb.png" alt="PhillyTreeMap" />
-					</a>
-					<a href="http://urbanforestmap.org/" target="_blank" class="case_study margin-right-15">
-						<span><p>Urban Forest Map</p></span>
-						<img src="images/ca_thumb.png" alt="Urban Forest Map" />
-					</a>
-					<a href="http://www.greenprintmaps.org/map/" target="_blank" class="case_study margin-right-15">
-						<span><p>GreenprintMaps</p></span>
-						<img src="images/sacramento_thumb.png" alt="GreenprintMaps" />
-					</a>
-					<a href="http://sandiegotreemap.org" target="_blank" class="case_study margin-right-15">
-						<span><p>San Diego Tree Map</p></span>
-						<img src="images/otm_sandiego.jpg" alt="San Diego" />
-					</a>
-					<a href="http://treemap.urbanforestproject.com/" target="_blank" class="case_study margin-right-15">
-						<span><p>Grand Rapids Urban Forest Project</p></span>
-						<img src="images/grand_rapido.jpg" alt="Grand Rapids Urban Forest Project" />
-					</a>
-				</div>
-			</div>
-<!-- END LEFT COLUMN, BEGIN SIDEBAR -->	
-			<div class="sidebar">
-				<a href="https://github.com/azavea/OpenTreeMap" target="_blank"><img src="images/otm_github.png" alt="Download OpenTreeMap on GitHub" /></a>
-				<a href="https://github.com/azavea/OpenTreeMap-iOS" target="_blank"><img src="images/otm-mobile_github.png" alt="Download OpenTreeMap iOS Mobile on GitHub" /></a>
-				<div class="services">
-					<h3>Services</h3>
-					<h4>Documentation</h4>
-					<a href="https://github.com/azavea/OpenTreeMap/wiki/Importingdata" target="_blank">Importing Data &raquo;</a><br/>
-					<a href="https://github.com/azavea/OpenTreeMap/wiki/FirstInstallation" target="_blank">First Installation &raquo;</a><br/>
-					<h4 class="border-top">Support</h4>
-					<a href="https://github.com/azavea/OpenTreeMap/issues" target="_blank">Report bugs on GitHub &raquo;</a><br/>
-					<a href="https://groups.google.com/forum/?fromgroups#!forum/opentreemap-user" target="_blank">Mailing List &raquo;</a><br/>
-					<a href="http://www.youtube.com/watch?v=X3-hazD9VFo" target="_blank">Tutorial 1: Searching &raquo;</a><br/>
-					<a href="http://www.youtube.com/watch?v=b9L-bAqGGFo" target="_blank">Tutorial 2: Adding a Tree &raquo;</a><br/>
-					IRC at #opentreemap on freenode<br/>
-					<h4 class="border-top">Webinars</h4>
-					<a href="http://www.youtube.com/watch?v=Aklp_n1Ph1s&feature=plcp" target="_blank">Exploring Mobile Technology w/ OpenTreeMap Mobile &raquo;</a><br/>
-					<a href="http://www.youtube.com/watch?v=ayb0-T8ORrA" target="_blank">Exploring Collaborative Tree Inventory with OpenTreeMap &raquo;</a><br/>
-					<a href="http://www.youtube.com/watch?v=oG3u9Ug-th4" target="_blank">Exploring Community Engagement w/ OpenTreeMap &raquo;</a><br/>
-					<a href="http://www.youtube.com/watch?v=HNNOuvfVwmg&feature=relmfu" target="_blank">Exploring Urban Forest Modeling and Prioritization Tools &raquo;</a><br/>
-					<h4 class="border-top">Implementation</h4>
-					Open source code can be daunting if you do not have the technical expertise on your team to build the application.<br/><br/>Implementation usually requires:
+				<div class="tab-pane" id="yellow">
+					<h2>Services</h2>
+					<p>Have the base code but don't know what to do with it? Interested in developing new features but don't know how? We can help you implement your own urban forestry inventory application with OpenTreeMap.</p>
+					<p>Our services include:
 					<ul>
 						<li>Database development</li>
-						<li>Software configuration</li>
+						<li>Software configuration and installation</li>
 						<li>Graphic design</li>
 						<li>Upload of tree datasets from local organizations</li>
 						<li>Software customization</li>
 						<li>Hosting</li>
-					</ul><br/>
-					Our software partner, <a href="http://azavea.com/opentreemap" target="_blank">Azavea</a>, provides implementation support and customization services.
+					</ul>
+					<h3>Support</h3>
+					<ul>
+						<li><a href="https://github.com/azavea/OpenTreeMap/wiki" target="_blank">Documentation</a></li>
+						<li><a href="https://github.com/azavea/OpenTreeMap/issues" target="_blank">Report bugs on Github</a></li>
+						<li><a href="https://groups.google.com/forum/?fromgroups#!forum/opentreemap-user" target="_blank">Mailing List</a></li>
+						<li>IRC at #opentreemap on freenode</li>
+					</ul>
 				</div>
-			</div>
-		</div>
-		<div class="footer">
-			<div class="column">
-				<h4>CONTACT US</h4>
-				Deborah Boyer<br/>
-				Azavea<br/>
-				<a href="mailto:dboyer@azavea.com" target="_blank">dboyer@azavea.com</a><br/>
-				<a href="tel:2157017506" target="_blank">215-701-7506</a><br/>
-				<a href="http://azavea.com/" target="_blank">www.azavea.com</a>
-			</div>
-			<div class="column-lg">
-				<h4>PARTNERS</h4>
-				<a href="http://www.urban-ecos.com/aboutus.html"><img src="images/ecos_funder.png" alt="Urban Ecos" /></a>
-				<a href="http://azavea.com/"><img src="images/azavea_funder.png" alt="Azavea" /></a>
-				<a href="http://treekit.org/"><img src="images/treekit_funder.png" alt="TreeKIT" /></a>
-				<a class="nonLink"><img src="images/wolfsgruber_funder.png" alt="Christian Wolfsgruber" /></a>
-			</div>
-			<div class="column">
-				<h4>FUNDING</h4>
-				<a href="http://www.csrees.usda.gov/"><img src="images/USDA_funder.png" alt="USDA" /></a>
-				<a href="http://www.fire.ca.gov/"><img src="images/calfire_funder.png" alt="CalFire" /></a>
-			</div>
-		</div>
-	</div>
-	<div id="webinar" class="modal">
-		<!-- Begin VideoJS -->
-		<div class="video-js-box">
-			<!-- Using the Video for Everybody Embed Code http://camendesign.com/code/video_for_everybody -->
-			<video class="video-js" width="640" height="480" controls preload poster="images/db_poster.jpg">
-				<source src="https://d1g3vhexbvcl8m.cloudfront.net/video/webinars/2011-08-11-fixphillydistricts-webinar.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-				<source src="https://d1g3vhexbvcl8m.cloudfront.net/video/webinars/2011-08-11-fixphillydistricts-webinar.webm" type='video/webm; codecs="vp8, vorbis"' />
-				<source src="https://d1g3vhexbvcl8m.cloudfront.net/video/webinars/2011-08-11-fixphillydistricts-webinar.ogv" type='video/ogg; codecs="theora, vorbis"' />
-				<!-- Flash Fallback. Use any flash video player here. Make sure to keep the vjs-flash-fallback class. -->
-				<object class="vjs-flash-fallback" width="640" height="480" type="application/x-shockwave-flash"
-				data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
-					<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
-					<param name="allowfullscreen" value="true" />
-					<param name="flashvars" value='config={"playlist":["images/db_poster.jpg", {"url": "https://d1g3vhexbvcl8m.cloudfront.net/video/webinars/2011-08-11-fixphillydistricts-webinar.mp4","autoPlay":false,"autoBuffering":true}]}' />
-					<!-- Image Fallback. Typically the same as the poster image. -->
-					<img src="images/db_poster.jpg" width="640" height="480" alt="Poster Image" title="No video playback capabilities." />
-				</object>
-			</video>
-		</div>
-		<!-- End VideoJS -->
-	</div>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$(".content_area .column a.webinar_thumb").overlay({
+				<div class="tab-pane" id="green">
+					<h2>Green</h2>
+					<p>Future Developments Content.</p>
+				</div>
+				</div>
 
-			mask: {
-				color: '#000',
-				loadSpeed: 200,
-				opacity: 0.5
-			},
-
-			closeOnClick: true
-			});
-		});
-	</script>
-	<!-- Google Code for Main list -->
-	<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
-	<script type="text/javascript">
-	/* <![CDATA[ */
-	var google_conversion_id = 1060410112;
-	var google_conversion_label = "lvJkCMiFlAMQgKbS-QM";
-	var google_custom_params = window.google_tag_params;
-	var google_remarketing_only = true;
-	/* ]]> */
-	</script>
-	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-	</script>
-	<noscript>
-	<div style="display:inline;">
-	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1060410112/?value=0&amp;label=lvJkCMiFlAMQgKbS-QM&amp;guid=ON&amp;script=0"/>
-	</div>
-	</noscript>
-  
-</body>
+				<!-- Call the tabs -->
+				<script type="text/javascript">
+					jQuery(document).ready(function ($) {
+						$('#tabs').tab();
+					});
+				</script> 
+	
+			</div> <!-- end: main-content -->
+			
+			<div class="clear"> </div>
+			
+			<div class="rightCol" id="sidebar">
+				<ul id="sidebar-nav">
+					<a href="https://github.com/azavea/OpenTreeMap" target="_blank"><li>Get Started on Github <span>&rsaquo;</span></li></a>
+					<a href="https://github.com/azavea/OpenTreeMap" target="_blank"><li>Get iOS Mobile Code <span>&rsaquo;</span></li></a>
+				</ul>
+				
+				<div id="subscribeBox">
+					<h3>Subscribe to OpenTreeMap News</h3>
+					<span class="subhead">and learn when the cloud-based OpenTreeMap becomes available.</span>
+					<form class="form-inline newsletter" id="form-6076">
+						<label>Email*</label>
+							<div class="input-append">
+							  <input id="appendedInputButton" type="text" style="width: 140px;">
+							  <button class="btn btn-success" type="button">Sign Up</button>
+							</div>
+					</form>
+					
+					<script type="text/javascript">$(function(){var formId='#form-6076';$(formId).validator({messageClass:'validation-error',errorClass:'field-error'}).bind("onSuccess",function(e,els){var form=this;var numSucceeded=els.length,numExpected=$(this).data('validator').getInputs().length;if(numSucceeded===numExpected){var formProduct='opentreemap';$('#00N30000009Hz7V').val('MwR6IuFGE6oTIdTFHYgGyYfrkiEUi6w9DN2');e.preventDefault();gaEvent.track({action:'Email_Signup',category:'Form_Submission',label:formProduct,value:25});setTimeout(function(){form.submit();},500);}});});</script><script type="text/javascript">document.documentElement.className+=" js"</script>
+					
+				</div>
+				
+			</div>
+			
+			<script type="text/javascript">
+				$(window).load(function() {
+					$('#featured').orbit();
+				});
+			</script>
+			
+			<div class="clear"> </div>
+			
+		</div> <!-- end: container -->
+		
+    </body>
 </html>
