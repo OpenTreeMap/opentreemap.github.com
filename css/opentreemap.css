@@ -122,6 +122,12 @@ hr {
 	box-shadow: 0 0 20px rgba(0,0,0,.6);
 }
 
+#contact-box h2 {
+	margin: 0;
+	padding: 0;
+	color: #666;
+}
+
 .contactForm button {
 	background-color: #98B73C;
 	padding: 7px 35px 7px 35px;
@@ -138,14 +144,23 @@ hr {
 #subscribeBox button {
 	background: none;
 	background-color: #98B73C;
-	padding: 5px 20px 5px 20px;
+	padding: 15px 30px 15px 30px;
 	border: 0;
 	box-shadow: 0none;
 	color: #fff;
 	font-weight: bold;
 	font-size: 16px;
-	margin: 0 auto;
-	margin-top: 0px;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+
+#subscribeBox button:hover {
+	opacity: 0.85;
+}
+
+#subscribeBox button:active {
+	position: relative;
+	top: 1px;
 }
 
 #subscribeBox ul {
@@ -159,11 +174,13 @@ hr {
 
 #subscribeBox a {
 	color: #E47D0E;
+	text-decoration: none;
 }
 
 .center {
 	text-align: center;
 }
+
 
 /* ===============================================
    Body
@@ -336,6 +353,7 @@ span.subhead {
 	border-radius: 1px solid #eee;
 	box-shadow: none;
 	border-radius: 0px;
+	width: 289px;
 }
 
 .contactForm label {
@@ -345,15 +363,16 @@ span.subhead {
 	color: #666;
 	margin-bottom: 0;
 	text-transform: uppercase;
+	padding-top: 10px;
 }
 
 .form-other input {
-	width: 296px;
+	width: 289px;
 }
 
 .form-other textarea {
-	width: 296px;
-	height: 50px;
+	width: 289px;
+	height: 65px;
 }
 
 a.case-study {
@@ -367,6 +386,17 @@ a.case-study {
 	margin-right: 10px;
 	margin-bottom: 10px;
 	border: 1px solid #DDD;
+}
+
+a.case-study:hover {
+	opacity: 0.85;
+}
+
+#form-6076 .btn-success {
+	background-image: none;
+	background: #98B73C;
+	box-shadow: none;
+	text-shadow: none;
 }
 
 
