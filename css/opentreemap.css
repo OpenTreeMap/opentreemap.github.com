@@ -68,6 +68,13 @@ ul#tabs {
 	padding: 0;
 }
 
+hr {
+	height: 0px;
+	background-color: #ccc;
+	box-shadow: none;
+	border: 1px solid #ccc;
+}
+
 /* ===============================================
    Header
 =============================================== */
@@ -141,6 +148,19 @@ ul#tabs {
 	margin-top: 0px;
 }
 
+#subscribeBox ul {
+	list-style-type: none;
+}
+
+#subscribeBox li {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+
+#subscribeBox a {
+	color: #E47D0E;
+}
+
 .center {
 	text-align: center;
 }
@@ -189,24 +209,30 @@ img.thumb {
 }
 
 .nav-tabs > li > a {
-	border: none;
-	border-radius: 3px;
+	border: 1px solid #ddd;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
 	color: #88A83E;
 	text-decoration: none;
+	margin-right: 17px;
 }
 
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover {
 	background-color: #88A83E;
-	color :#fff;
+	color: #fff;
 }
 
 .nav-tabs > li > a:hover {
 	background-color: #eee;
 	color: #6C903D;
+	margin-bottom: -1px;
 }
 
 .nav-tabs {
-	border: none;
 }
 
 .newsletter {
@@ -224,11 +250,6 @@ img.thumb {
 #sidebar {
 	margin-top: 50px;
 }
-
-#sidebar-nav {
-	margin-left: 10px;
-}
-
 
 #sidebar-nav li {
 	display: block;
@@ -261,7 +282,7 @@ img.thumb {
 	box-shadow: none;
 	background: #F1F2F2;
 	width: 85%;
-	margin: 65px 0 0 10px;
+	margin: 46px 0 0 9px;
 }
 
 span.subhead {
@@ -287,6 +308,10 @@ span.subhead {
 #sidebar-nav a li:hover {
 	background-color: rgba(136, 168, 62, 0.85);
 }
+
+/* ===============================================
+   Contact form
+=============================================== */
 
 .cform1 {
 	width: 100%;
@@ -345,6 +370,10 @@ a.case-study {
 }
 
 
+/* ===============================================
+   Case studies
+=============================================== */
+
 a.case-study span {
 	position: absolute;
 	bottom: 0;
@@ -362,7 +391,6 @@ a.case-study span {
 	-webkit-transition: background .5s;
 	-o-transition: background .5s;
 }
-
 
 
 /* ===============================================
