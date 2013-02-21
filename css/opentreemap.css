@@ -299,7 +299,7 @@ img.thumb {
 	box-shadow: none;
 	background: #F1F2F2;
 	width: 85%;
-	margin: 46px 0 0 9px;
+	margin: 46px 0 100px 9px;
 }
 
 span.subhead {
@@ -422,6 +422,9 @@ a.case-study span {
 	-o-transition: background .5s;
 }
 
+#caseStudyWrap {
+	margin-bottom: 100px;
+}
 
 /* ===============================================
    Footer
