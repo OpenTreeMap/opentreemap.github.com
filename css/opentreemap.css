@@ -70,9 +70,9 @@ ul#tabs {
 
 hr {
 	height: 0px;
-	background-color: #ccc;
 	box-shadow: none;
-	border: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+    border-bottom: 1px solid transparent;
 }
 
 /* ===============================================
@@ -241,6 +241,7 @@ img.thumb {
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover {
 	background-color: #88A83E;
 	color: #fff;
+    padding-bottom: 10px;
 }
 
 .nav-tabs > li > a:hover {
@@ -258,6 +259,34 @@ img.thumb {
 
 .input-append button {
 	margin-top: 0;
+}
+button.newsletter-button {
+    width: auto;
+    font-size: 12px;
+    padding: 6px 12px 10px;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    margin: 0;
+    background: #98B73C;
+    transition: background .5s;
+    -moz-transition: background .5s;
+    -webkit-transition: background .5s;
+    -o-transition: background .5s;
+    text-shadow: 0 -1px 0 #3A7404;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    top: 2px;
+    position: relative;
+}
+button.newsletter-button:hover {
+    background-color: #58803A;
+}
+button.newsletter-button > span {
+    top: 2px;
+    position: relative;
 }
 
 /* ===============================================
