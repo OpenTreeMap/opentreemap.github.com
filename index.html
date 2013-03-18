@@ -72,10 +72,11 @@ OpenTreeMap is an easy-to-use public inventorying platform that enables individu
 						<ul>
 							<li>Python</li>
 							<li>Django</li>
-							<li>Web Server - Apache2</li>
-							<li>Tile Server - Java, Tomcat, and GeoServer</li>
+							<li>Tile Server - Tile Cache</li>
+							<li>Map Server - Geoserver running in a webapp container (Tomcat, Jetty)</li>
 							<li>Spatial Database - PostgreSQL with PostGIS</li>
-							<li>Map Libraries - Google Maps, OpenLayers, Bing, Esri World_Topo_Map</li>
+							<li>Possible Map Libraries - Google Maps, OpenLayers, Bing, Esri World_Topo_Map</li>
+							<li>Web Server - Nginx/Gunicorn or Apache with mod_wsgi</li>
 						</ul>
 					<h3>Discover Who's Using OpenTreeMap</h3>
 					<a class="case-study" href="http://phillytreemap.org/" target="_blank">
@@ -98,9 +99,13 @@ OpenTreeMap is an easy-to-use public inventorying platform that enables individu
 						<span>Grand Rapids Urban Forest Project</span>
 						<img src="https://s3.amazonaws.com/s3.azavea.com/com.azavea.opentreemap/grandrapids.jpg" alt="Grand Rapids Urban Forest Project" class="thumb" />
 					</a>
-					<a class="case-study" href="http://ashevilletreemap.org/" target="_blank" style="margin-bottom: 100px;">
+					<a class="case-study" href="http://ashevilletreemap.org/" target="_blank">
 						<span>Asheville Tree Map</span>
 						<img src="https://s3.amazonaws.com/s3.azavea.com/com.azavea.opentreemap/asheville.jpg" alt="Asheville Tree Map" class="thumb" />
+					</a>
+					<a class="case-study" href="http://www.treezilla.org" target="_blank" style="margin-bottom: 100px;">
+						<span>treezilla</span>
+						<img src="https://s3.amazonaws.com/s3.azavea.com/com.azavea.opentreemap/treezilla.jpg" alt="treezilla">
 					</a>
 				</div>
 				<div class="tab-pane" id="orange">
@@ -132,7 +137,7 @@ OpenTreeMap is an easy-to-use public inventorying platform that enables individu
 						<li>IRC at #opentreemap on freenode</li>
 					</ul>
 					<h2>Services</h2>
-					<p>Have the base code but don't know what to do with it? Interested in developing new features but don't know how? We can help you implement your own urban forestry inventory application with OpenTreeMap.</p>
+					<p>Have the base code but don't know what to do with it? Interested in developing new features but don't know how? <a href="http://azavea.com/opentreemap" target="_blank">Azavea</a> can help you implement your own urban forestry inventory application with OpenTreeMap.</p>
 					<p>Our services include:
 					<ul>
 						<li>Database development</li>
