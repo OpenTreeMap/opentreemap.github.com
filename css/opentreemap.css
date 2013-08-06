@@ -112,7 +112,7 @@ hr {
 	position: relative;
 	float: right;
 	width: 314px;
-	height: 355px;
+	height: 370px;
 	padding: 17px;
 	margin-top: -50px;
 	background: #F3F3F3;
@@ -294,7 +294,7 @@ button.newsletter-button > span {
 =============================================== */
 
 #sidebar {
-	margin-top: 50px;
+	margin-top: 00px;
 }
 
 #sidebar-nav li {
@@ -305,7 +305,7 @@ button.newsletter-button > span {
 	background-color: #88A83E;
 	color: #fff;
 	border-radius: 6px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 #sidebar-nav li a {
@@ -328,7 +328,7 @@ button.newsletter-button > span {
 	box-shadow: none;
 	background: #F1F2F2;
 	width: 85%;
-	margin: 46px 0 100px 9px;
+	margin: 46px 0 40px 9px;
 }
 
 span.subhead {
