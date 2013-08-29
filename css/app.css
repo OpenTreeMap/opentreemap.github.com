@@ -1,0 +1,130 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+html,
+body {
+	min-height: 100%;
+}
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin-top: 18px;
+	margin-bottom: 24px;
+	font-size: 2em;
+	text-align: center;
+	}
+	h1 > span {
+		color: #8baa3d;
+	}
+	
+h3 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.25em;
+	color: #939597;
+}
+
+.content {
+	max-width: 62em;
+	margin: 30px auto;
+	background: white;
+	}
+	.content-header {
+		padding: 18px 24px 14px 24px;
+		border-bottom: 1px solid #DDD;
+		}
+		.logo {
+			background-image: url(../images/logo@2x.png);
+			background-size: 100%;
+			background-repeat: no-repeat;
+			width: 300px;
+			height: 56px;
+			display: block;
+			text-indent: -9999px;
+			margin: 0 auto;
+		}
+
+	.content-body {
+		padding: 18px 24px 12px 24px;
+		}
+		.content-body p {
+			font-size: 1em;
+			margin-top: 12px;
+		}
+
+	.content-footer {
+		padding: 18px 24px 24px 24px;
+		background: #F1F2F2;
+	}
+
+.case-study {
+	width: 172px;
+	height: 172px;
+	overflow: hidden;
+	display: block;
+	height: 170px;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #DDD;
+		}
+		.case-study:hover {
+			opacity: 0.85;
+		}
+		.case-study span {
+			font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			position: absolute;
+			bottom: 0;
+			background: #8baa3d;
+			padding: 6px 8px;
+			background: rgba(139, 170, 61, .9);
+			color: white;
+			font-size: 1em;
+			z-index: 999;
+			font-weight: 400;
+			line-height: 18px;
+			width: 100%;
+			transition: background .5s;
+			-moz-transition: background .5s;
+			-webkit-transition: background .5s;
+			-o-transition: background .5s;
+		}
+
+#caseStudyWrap {
+	margin-bottom: 100px;
+}
+
+.validation-error {
+	background: black;
+	background: rgba(0,0,0,.85);
+	padding: 3px 5px;
+	margin-top: 40px;
+	margin-left: -135px;
+	}
+	.validation-error:before {
+		position: absolute;
+		content: '';
+		top: -8px;
+		left: 15px;
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-bottom: 8px solid black;
+		border-bottom: 8px solid rgba(0,0,0,.85);
+	}
+	.validation-error p {
+		font-size: 12px;
+		font-style: italic;
+		color: #CCC;
+		margin: 0;
+	}
+
+@media screen and (max-width: 640px) {
+	.content-header .logo {
+		width: 100%;
+		max-width: 300px;
+	}
+}
