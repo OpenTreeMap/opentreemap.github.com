@@ -8,6 +8,7 @@ body {
 	background-image: url(../images/background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 h1 {
@@ -25,6 +26,11 @@ h3 {
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.25em;
 	color: #939597;
+}
+
+.btn.btn-lg > .glyphicon {
+	font-size: 14px;
+	top: -2px;
 }
 
 .content {
@@ -126,5 +132,8 @@ h3 {
 	.content-header .logo {
 		width: 100%;
 		max-width: 300px;
+	}
+	.btn.btn-lg {
+		font-size: 16px;
 	}
 }
