@@ -28,6 +28,16 @@ h3 {
 	color: #939597;
 }
 
+form label {
+	font-size: 0.75em;
+	color: gray;
+	margin: 5px 0;
+}
+legend {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
 .btn.btn-lg > .glyphicon {
 	font-size: 14px;
 	top: -2px;
